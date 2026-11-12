@@ -1,2 +1,9 @@
+name: drag's blog
+menu:
+  - - About
+    - about.html
+  - - Archive
+    - archive.html
+content_path: content
 extra:
   colorscheme: catppuccin
