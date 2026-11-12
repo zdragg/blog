@@ -18,7 +18,7 @@ jobs:
 
       - name: Build static files
         id: build
-        run: marmite blog "$GITHUB_WORKSPACE" output -v
+        run: marmite "$GITHUB_WORKSPACE" output -v
 
       - name: Upload static files as artifact
         id: upload
