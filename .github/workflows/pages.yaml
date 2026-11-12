@@ -1,3 +1,4 @@
+name: Build blog and deploy
 on: push
 jobs:
   # Build job
